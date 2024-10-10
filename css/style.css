@@ -326,15 +326,17 @@ a:focus {
   background-color: transparent;
   color: #ff8a1d;
 }
-
+.slider_section .img-box {
+  padding-bottom: 115px;
+}
 .slider_section .img-box img {
   width: 100%;
 }
 
-.feature_section {
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+  .feature_section {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
 .feature_section .feature_container {
   display: -webkit-box;
