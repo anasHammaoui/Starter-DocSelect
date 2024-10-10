@@ -603,12 +603,14 @@ a:focus {
 
 .client_section .box .client_id .img-box {
   width: 125px;
+  height: 125px;
   min-width: 125px;
   margin-right: 15px;
 }
 
 .client_section .box .client_id .img-box img {
   width: 100%;
+  height: 100%;
   border-radius: 100%;
 }
 
@@ -750,13 +752,12 @@ a:focus {
 }
 
 .info_section .social-box .box {
-  background-color: #ffffff;
   padding: 5px 15px;
 }
 
 .info_section a {
   margin: 0 5px;
-  color: #0355cc;
+  color: #fff;
 }
 
 .info_section a i {
