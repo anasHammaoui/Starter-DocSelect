@@ -441,7 +441,9 @@ a:focus {
   background-color: transparent;
   color: #0355cc;
 }
-
+.about_section .img-box {
+  width: 400px;
+}
 .about_section .img-box img {
   width: 100%;
 }
