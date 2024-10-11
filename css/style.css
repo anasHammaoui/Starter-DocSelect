@@ -810,7 +810,8 @@ a:focus {
 }
 
 .info_items .item:hover .img-box {
-  background-color: #0355cc;
+  background-color: #fff;
+  color: #0355cc;
 }
 
 .info_items {
