@@ -553,6 +553,11 @@ a:focus {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
 } */
+.service_section .services-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .service_section .btn-box {
   display: -webkit-box;
@@ -562,6 +567,8 @@ a:focus {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 45px;
+  margin-right: 20px;
+
 }
 
 .service_section .btn-box a {

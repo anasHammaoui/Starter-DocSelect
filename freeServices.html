@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Services</title>
+
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" >
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+ <!-- bootstrap cdn css -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- font awesome style -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
 
@@ -15,6 +16,7 @@
   <link href="css/style.css" rel="stylesheet" >
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" >
+
 </head>
 <body>
    <!-- header section strats -->
@@ -55,13 +57,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="about.html"> About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="services.html">Services</a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="freeServices.html">Free Services</a>
               </li>
               <li class="nav-item">
@@ -74,34 +76,69 @@
     </div>
   </header>
   <!-- end header section -->
-  <!-- about section -->
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="row" style="justify-content: space-between;">
-        <div class="col-lg-6 col-md-6">
-          <div class="detail-box">
-            <h2>
-              About us
-            </h2>
-            <p>
-              At DocSelect, we are committed to transforming lives through compassionate care and innovative solutions. With a team of dedicated professionals, we strive to create an environment where your health, well-being, and peace of mind are our top priorities. Our mission is to provide personalized services that empower you to live your best life. We believe in building lasting relationships based on trust, transparency, and genuine care. <br><br>
-              Every individual is unique, and we tailor our approach to meet your specific needs. Whether you seek guidance, support, or specialized care, we're here to help you thrive.
-            </p>
-            <a href="contact.html">
-              Contact Us
-            </a>
+  <!-- service section -->
+  <section class="service_section layout_padding">
+    <div class="container ">
+      <div class="heading_container heading_center">
+        <h2> Free Services</h2>
+        <p style="max-width: 650px;padding-top: 10px;">We provide a range of free services to support your well-being, from initial consultations to health resources. Start your journey with us at no cost and see how we can help you achieve your goals.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/agenda-en-ligne.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Free Consultations
+              </h5>
+              <p>
+                Get expert advice with a free consultation tailored to your health needs.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6">
-          <div class="img-box">
-            <img src="images/about.png" alt="">
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/specialiste-de-sante.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Health
+              </h5>
+              <p>
+                Receive a complimentary assessment to understand your health better.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="images/trouver-des-patients.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+              New Clients
+              </h5>
+              <p>
+                Access free guides and tips to support your overall well-being.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <div class="btn-box">
+        <a href="contact.html">
+         Contact Us
+        </a>
+      </div>
     </div>
   </section>
-  <!-- end about section -->
-  
+  <!-- end service section -->
+
   <!-- info section -->
   <section class="info_section ">
     <div class="container">
@@ -113,7 +150,7 @@
           <div class="info_items">
             <div class="row">
               <div class="col-md-4">
-                <a href="">
+                <a href="https://www.google.com/maps/place/Nador/data=!4m2!3m1!1s0xd77a7f62be6e41b:0x6f1a80a88febeae?sa=X&ved=1t:242&ictx=111">
                   <div class="item ">
                     <div class="img-box ">
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -125,7 +162,7 @@
                 </a>
               </div>
               <div class="col-md-4">
-                <a href="">
+                <a href="tel:+212628746485">
                   <div class="item ">
                     <div class="img-box ">
                       <i class="fa fa-phone" aria-hidden="true"></i>
@@ -137,7 +174,7 @@
                 </a>
               </div>
               <div class="col-md-4">
-                <a href="">
+                <a href="mailto:support@docselect.ma">
                   <div class="item ">
                     <div class="img-box">
                       <i class="fa fa-envelope" aria-hidden="true"></i>
